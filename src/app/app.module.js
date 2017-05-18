@@ -9,6 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var animations_1 = require("@angular/platform-browser/animations");
+var material_1 = require("@angular/material");
 var forms_1 = require("@angular/forms");
 var http_1 = require("@angular/http");
 var app_routing_module_1 = require("./app-routing.module");
@@ -31,6 +32,7 @@ AppModule = __decorate([
         imports: [
             platform_browser_1.BrowserModule,
             animations_1.BrowserAnimationsModule,
+            material_1.MaterialModule,
             forms_1.FormsModule,
             http_1.HttpModule,
             angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(in_memory_data_service_1.InMemoryDataService),
