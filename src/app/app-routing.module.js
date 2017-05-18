@@ -13,8 +13,8 @@ var heroes_component_1 = require("./hero/heroes/heroes.component");
 var hero_detail_component_1 = require("./hero/hero-detail/hero-detail.component");
 var routes = [
     { path: '', redirectTo: '/en/dashboard', pathMatch: 'full' },
-    { path: 'en/dashboard', component: dashboard_component_1.DashboardComponent, data: { lang: 'en-UK' } },
-    { path: 'it/cruscotto', component: dashboard_component_1.DashboardComponent, data: { lang: 'it-IT' } },
+    { path: 'en/dashboard', component: dashboard_component_1.DashboardComponent, data: { lang: 'en' } },
+    { path: 'it/cruscotto', component: dashboard_component_1.DashboardComponent, data: { lang: 'it' } },
     { path: 'detail/:id', component: hero_detail_component_1.HeroDetailComponent },
     { path: 'heroes', component: heroes_component_1.HeroesComponent }
 ];
